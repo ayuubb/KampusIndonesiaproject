@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: 600;
+}
+
+#banner {
+    margin-top: 8%;
+    height: 638px;
+    width: 100%;
+    max-height: 1112px;
+    position: relative;
+}
+
+.img-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    margin-top: -4%;
+}
+
+.img-box img {
+    position: absolute;
+}
+
+.content-slider {
+    background-color: aliceblue;
+    padding-bottom: 100px;
+}
+
+.display-5 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #354D6F;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+    color: #354D6F;
+}
+
+.info-panel {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+    margin-top: -100px;
+}
+
+.info-panel h2 {
+    font-weight: 600;
+}
+
+.col-lg .img {
+    height: 80px;
+    position: relative;
+}
+
+
+/* .btn-slider {
+    text-align: center;
+    margin: 0 auto;
+} */
+
+
+/* utility */
+
+.tombol {
+    border-radius: 35px;
+    font-weight: 500;
+    background-color: #354D6F;
+    border: #354D6F;
+}
+
+.keterangan p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.keterangan {
+    margin: auto;
+}
+
+.container .card-deck {
+    margin-top: 20px;
+}
+
+.cari-kampus {
+    margin-right: -30px;
+}
+
+.cari-kampus .card {
+    background-color: #4b6b97;
+    color: #ffffff;
+}
+
+.cari-kampus .card h4 {
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.cari-kampus .card a {
+    font-weight: 600;
+}
+
+.title-card {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.card-body h5 {
+    font-weight: 600;
+}
+
+.carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+
+.carousel-indicators li {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators .active {
+    background-color: #354D6F;
+}
+
+.place {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.map {
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.fitur {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.fitur h4 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.img-fitur {
+    height: 100px;
+}
+
+.work img {
+    max-height: 500px;
+}
+
+.work h4 {
+    font-weight: 700;
+    color: #354D6F;
+}
+
+.work h5 {
+    font-weight: 500;
+    color: #354D6F;
+}
+
+.work-content {
+    margin: auto;
+    text-align: center;
+}
+
+.seminar {
+    margin-top: 100px;
+}
+
+.seminar h4 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.artikel {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.artikel h4 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.carousel-control-prev-icon {
+    background-color: #001c44;
+}
+
+.carousel-control-next-icon {
+    background-color: #001c44;
+}
+
+.artikel-slider img {
+    border-radius: 20px;
+}
+
+.support {
+    margin-bottom: 100px;
+}
+
+.support h5 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.support-content .col-3 img {
+    text-align: center;
+}
+
+footer {
+    background-color: #354D6F;
+    width: 100%;
+    height: 500px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+footer p {
+    font-size: small;
+}
+
+.foter-content {
+    margin-top: 50px;
+}
+
+.foter-content h6 {
+    font-weight: 600;
+}
+
+.foter-content h5 {
+    font-weight: 600;
+}
+
+.foter-content p {
+    font-size: small;
+    font: 100;
+}
+
+
+/* desktop */
+
+@media (min-width:992px) {
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0011fc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .row .display-5 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #banner {
+        text-align: center;
+    }
+}
+
+
+/* @media (max-width: 767.98px) {
+    .content-slider {}
+} */
